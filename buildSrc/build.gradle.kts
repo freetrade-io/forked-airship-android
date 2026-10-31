@@ -11,9 +11,14 @@ repositories {
 
 dependencies {
     implementation("com.android.tools.build:gradle:7.2.1")
-    implementation(kotlin("gradle-plugin", version = "1.5.31"))
+    implementation(kotlin("gradle-plugin", version = "2.1.0"))
     implementation("io.github.gradle-nexus:publish-plugin:1.1.0")
-    implementation("org.jetbrains.dokka:dokka-gradle-plugin:1.4.32")
+    implementation("org.jetbrains.dokka:dokka-gradle-plugin:1.9.20")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.18.12")
+    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.18.12")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.1.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.1.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.1.0")
 }
 
 group = "build"
